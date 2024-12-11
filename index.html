@@ -1,195 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Behance landing page</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/navbar.css" />
-    <link rel="stylesheet" href="/css/content.css" />
-    <link rel="stylesheet" href="/css/footer.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="nav-left">
-        <a href="#" class="logo">Bēhance</a>
-        <ul class="nav-links">
-          <li>
-            <a href="#" class="nav-link"
-              >Explore
-              <i
-                class="fas fa-chevron-down"
-                style="font-size: 12px; margin-left: 4px"
-              ></i
-            ></a>
-          </li>
-          <li><a href="#" class="nav-link">Assets</a></li>
-          <li><a href="#" class="nav-link">Jobs</a></li>
-          <li>
-            <a href="#" class="nav-link"
-              >Behance <span class="pro-button">PRO</span></a
-            >
-          </li>
-          <li><a href="#" class="nav-link">Hire Freelancers</a></li>
-        </ul>
-      </div>
 
-      <div class="nav-center">
-        <div class="search-container">
-          <i class="fas fa-search search-icon-left"></i>
-          <input type="text" class="search-input" placeholder="Search..." />
-          <i class="fas fa-image search-icon-right"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to Custom CSS (if applicable) -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://use.typekit.net/voe6rvy.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Top Bar -->
+    <div class="bg-gray-800 text-white text-sm py-2">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4">
+            <span>Flat 50% Off On Grocery Shop.</span>
+            <div class="flex space-x-4 mt-2 sm:mt-0">
+                <a href="#" class="hover:underline">Help?</a>
+                <a href="#" class="hover:underline">Track Order</a>
+                <a href="#" class="hover:underline">Language</a>
+                <a href="#" class="hover:underline">Currency</a>
+            </div>
         </div>
-      </div>
-
-      <div class="nav-right">
-        <button class="icon-button"><i class="fas fa-bell"></i></button>
-        <button class="login-button">Log In</button>
-        <button class="signup-button">Sign Up</button>
-
-        <button class="adobe-button">
-          <i class="fas fa-th"></i>
-          Adobe
-        </button>
-      </div>
-    </nav>
-
-    <div class="content-header">
-      <div class="content-box">
-        <h1 class="main-title">Need a Design Service? Ping me!</h1>
-
-        <p class="services-description">
-          I Can Do Mobile App Ui Design, Website, Pos, Dashboard, UX Research,
-          Saas App Design, Prototyping, Wireframing, UI mockups for you
-        </p>
-
-        <div class="social-links">
-          <a href="#" class="social-link">WhatsApp</a>
-          <a href="#" class="social-link">LinkedIn</a>
-          <a href="#" class="social-link">Behance</a>
-        </div>
-
-        <div class="contact-section">
-          <p class="contact-prompt">
-            Still, thinking? Let's start the conversation and get things going
-          </p>
-          <p class="contact-info">
-            Email:
-            <a href="mailto:uiuxsaeed@gmail.com" class="email"
-              >uiuxsaeed@gmail.com</a
-            >
-          </p>
-          <p class="contact-info">contact: +92 3169245106</p>
-        </div>
-      </div>
     </div>
 
-    <div class="main-container">
-      <div class="content-area">
-        <div class="content-grid">
-          <!-- Content grid items will be added here -->
-        </div>
-      </div>
 
-      <aside class="sidebar">
-        <nav class="sidebar-nav">
-          <h3>Tools & Resources</h3>
-          <ul class="sidebar-links">
-            <li>
-              <a href="#"><i class="fas fa-palette"></i> Creative Cloud</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-camera"></i> Photoshop</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-vector-square"></i> Illustrator</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-pen-nib"></i> InDesign</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-film"></i> Premiere Pro</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-magic"></i> After Effects</a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
-    </div>
 
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-column">
-          <a href="#" class="footer-logo">Bēhance</a>
-        </div>
-        <div class="footer-column">
-          <h3>Built For Creatives</h3>
-          <ul class="footer-links">
-            <li><a href="#">Try Behance Pro</a></li>
-            <li><a href="#">Find Inspiration</a></li>
-            <li><a href="#">Get Hired</a></li>
-            <li><a href="#">Sell Creative Assets</a></li>
-            <li><a href="#">Sell Freelance Services</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>Find Talent</h3>
-          <ul class="footer-links">
-            <li><a href="#">Post a Job</a></li>
-            <li><a href="#">Graphic Designers</a></li>
-            <li><a href="#">Photographers</a></li>
-            <li><a href="#">Video Editors</a></li>
-            <li><a href="#">Web Designers</a></li>
-            <li><a href="#">Illustrators</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>Social</h3>
-          <ul class="footer-links footer-social">
-            <li>
-              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-pinterest"></i> Pinterest</a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="footer-bottom-container">
-          <div class="footer-bottom-left">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Adobe_Corporate_Logo.png/220px-Adobe_Corporate_Logo.png"
-              alt="Adobe"
-              class="adobe-logo"
-            />
-            <span>© 2024 Adobe Inc. All rights reserved.</span>
-          </div>
-          <div class="footer-bottom-right">
-            <a href="#">TOU</a>
-            <a href="#">Privacy</a>
-            <a href="#">Community</a>
-            <a href="#">Cookie preferences</a>
-            <a href="#">Do not sell or share my personal information</a>
-          </div>
-        </div>
-      </div>
-    </footer>
 
-    <script type="module" src="/js/main.js"></script>
-  </body>
+        <script src="./js/script.js"></script>
+
+</body>
+
 </html>
