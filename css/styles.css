@@ -6,3 +6,62 @@ body {
   header nav ul li a {
     font-size: 1rem;
   }
+
+    footer {
+    font-size: 0.875rem;
+  }
+
+  .bg-custom {
+    background-color: #25818c;
+  }
+
+  @font-face {
+    font-family: 'AcuminPro';
+    src: url('../fonts/acumin-pro/Acumin-BdPro.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AcuminPro';
+    src: url('../fonts/acumin-pro/Acumin-BdItPro.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AcuminPro';
+    src: url('../fonts/acumin-pro/Acumin-ItPro.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AcuminPro';
+    src: url('../fonts/acumin-pro/Acumin-RPro.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-heading {
+    font-family: 'AcuminPro', sans-serif;
+}
+
+.icon-color {
+    color: #fe7048;
+  }
+
+  .material-icons-outlined {
+
+    vertical-align: middle; 
+  }
+  
+  .icon-size-lg{
+    font-size: 35px !important; 
+  }
+  .icon-size-sm{
+    font-size: 10px !important; 
+  }
+  .icon-size-mg{
+    font-size: 18px !important; 
+  }
