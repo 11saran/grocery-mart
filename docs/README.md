@@ -36,7 +36,7 @@ grocery-mart/
 
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone <https://github.com/11saran/grocery-mart.git>
    ```
 2. Navigate to the project directory:
    ```bash
