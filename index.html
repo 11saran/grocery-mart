@@ -142,9 +142,135 @@
         </div>
     </div>
 
+<!-- Hero Section -->
+    <main class="bg-white text-white py-16">
+        <div class="bg-custom rounded-2xl container mx-auto flex flex-col lg:flex-row items-center px-4">
+            <!-- Left Content -->
+            <div class="lg:w-1/2 space-y-6 text-center lg:text-left px-16 py-24">
+                <h2 class=" custom-heading text-3xl lg:text-6xl ">Fresh Groceries Delivered To Your Doorstep</h2>
+                <p class="text-lg">
+                    Shop for all your essentials online and enjoy fast, reliable delivery right to your home.
+                </p>
+                <a href="#"
+                    class="bg-[#fe7048] text-white py-3 px-6 rounded-lg hover:bg-orange-600 transition inline-block">
+                    Shop Now →
+                </a>
+                <div class="flex items-center justify-center lg:justify-start space-x-2 mt-4">
+                    <!-- Reviews Box with Custom Border Radius covering only content -->
+                    <div
+                        class="bg-white border border-gray-300 rounded-tr-3xl rounded-bl-3xl p-4 flex items-center space-x-2">
+                        <!-- Reviews Images -->
+                        <div class="flex -space-x-2">
+                            <img src="./assets/u (1).png" alt="Reviewer 1"
+                                class="w-10 h-10 rounded-full border-2 border-white">
+                            <img src="./assets/u (2).png" alt="Reviewer 2"
+                                class="w-10 h-10 rounded-full border-2 border-white">
+                            <img src="./assets/u (3).png" alt="Reviewer 3"
+                                class="w-10 h-10 rounded-full border-2 border-white">
+                            <img src="./assets/u (1).png" alt="Reviewer 3"
+                                class="w-10 h-10 rounded-full border-2 border-white">
+                        </div>
+
+
+                         <!-- Review Rating -->
+                        <span class="text-sm font-semibold text-gray-400">
+                            4.9 ⭐ (12k Reviews)
+                        </span>
+                    </div>
+                </div>
 
 
 
+            </div>
+
+            <!-- Right Image -->
+            <div class="lg:w-1/2 mt-8 lg:mt-0">
+                <img src="./assets/main.png" alt="Delivery" class="rounded-lg mx-auto w-3/4">
+            </div>
+        </div>
+    </main>
+
+<section class="bg-white">
+        <div class=" container mx-auto p-6">
+            <!-- Shop by Categories Section -->
+            <div class="flex flex-wrap items-center justify-between mb-6">
+                <h2 class="text-2xl font-semibold">SHOP BY CATEGORIES</h2>
+                <div class="flex space-x-4 mt-4 sm:mt-0">
+                    <!-- Arrow Buttons -->
+                    <button id="prevBtn" class=" p-2 w-12 sm:w-16 rounded-xl hover:bg-[#fe7048] border-2">
+                        <span class="material-icons-outlined text-gray-600">arrow_back</span>
+                    </button>
+                    <button id="nextBtn" class=" p-2 w-12 sm:w-16 rounded-xl hover:bg-[#fe7048] border-2">
+                        <span class="material-icons-outlined text-gray-600">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+
+<!-- Categories Slider -->
+            <div class="overflow-hidden">
+                <div id="categoriesSlider" class="flex transition-transform duration-300">
+                    <!-- Category Items -->
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Vegetables">
+                        <div
+                            class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4 text-center hover:bg-gray-200 transition">
+                            <img src="./assets/vegetable.png" alt="Vegetables" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-gray-700">Vegetables</span>
+                        </div>
+                    </div>
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Meat">
+                        <div
+                            class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4 text-center hover:bg-gray-200 transition">
+                            <img src="./assets/meat.png" alt="Meat" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-gray-700">Meat</span>
+                        </div>
+                    </div>
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Milk">
+                        <div class="flex flex-col items-center justify-center bg-[#25818c] rounded-xl p-4 text-center">
+                            <img src="./assets/milk.png" alt="Milk" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-white">Milk</span>
+                        </div>
+                    </div>
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Fruits">
+                        <div
+                            class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4 text-center hover:bg-gray-200 transition">
+                            <img src="./assets/fruits.png" alt="Fruits" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-gray-700">Fruits</span>
+                        </div>
+                    </div>
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Drinks">
+                        <div
+                            class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4 text-center hover:bg-gray-200 transition">
+                            <img src="./assets/drinks.png" alt="Drinks" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-gray-700">Drinks</span>
+                        </div>
+                    </div>
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Bakery">
+                        <div
+                            class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4 text-center hover:bg-gray-200 transition">
+                            <img src="./assets/cake.png" alt="Bakery" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-gray-700">Bakery</span>
+                        </div>
+                    </div>
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Snacks">
+                        <div
+                            class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4 text-center hover:bg-gray-200 transition">
+                            <img src="./assets/Cosmetics.png" alt="Snacks" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-gray-700">Cosmetics</span>
+                        </div>
+                    </div>
+                    <div class="category-item flex-shrink-0 w-1/2 sm:w-1/4 lg:w-1/6 p-2" data-category="Seafood">
+                        <div
+                            class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4 text-center hover:bg-gray-200 transition">
+                            <img src="./assets/Beverages.png" alt="Seafood" class="w-20 h-20 sm:w-28 sm:h-28 mb-2">
+                            <span class="font-medium text-sm sm:text-lg text-gray-700">Beverages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
   
 
     

@@ -55,3 +55,42 @@ const totalItems = slider.children.length;
     }
 
 
+// Set default selected category
+    function setDefaultCategory() {
+        const defaultCategory = document.querySelector('[data-category="Milk"] div');
+        const defaultTextSpan = defaultCategory.querySelector('span');
+        defaultCategory.classList.add('bg-[#25818c]', 'hover:bg-[#1e6b74]');
+        defaultCategory.classList.remove('bg-white', 'hover:bg-gray-100');
+        defaultTextSpan.classList.add('text-white');
+        defaultTextSpan.classList.remove('text-gray-700');
+    }
+
+    // Handle click events
+    categoryItems.forEach(item => {
+        item.addEventListener('click', () => {
+            resetCategories();
+            const div = item.querySelector('div');
+            const textSpan = item.querySelector('span');
+            div.classList.add('bg-[#25818c]', 'hover:bg-[#1e6b74]');
+            div.classList.remove('bg-white', 'hover:bg-gray-100');
+            textSpan.classList.add('text-white');
+            textSpan.classList.remove('text-gray-700');
+        });
+    });
+  // Initialize default category
+    setDefaultCategory();
+
+ 
+
+    let scrollAmount = 0;
+    const scrollStep = slider.offsetWidth / 2;
+
+    prevBtn.addEventListener("click", () => {
+        scrollAmount -= scrollStep;
+        slider.style.transform = `translateX(${-scrollAmount}px)`;
+    });
+
+    nextBtn.addEventListener("click", () => {
+        scrollAmount += scrollStep;
+        slider.style.transform = `translateX(${-scrollAmount}px)`;
+    });
