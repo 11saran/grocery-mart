@@ -28,7 +28,7 @@ grocery-mart/
 ### Tools and Dependencies
 
 - HTML5
-- CSS3 (Bootstrap or Tailwind CSS optional)
+- CSS3 (Tailwind CSS)
 - JavaScript (ES6+)
 - Browser for testing (e.g., Chrome, Firefox)
 
